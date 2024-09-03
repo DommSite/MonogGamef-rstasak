@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonogGamef-rstasak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d0fd356594c68e2265840bc654c317017e76bca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e720d4ec1fea6973a51fd0c04b9f05dd9046ec4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonogGamef-rstasak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonogGamef-rstasak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

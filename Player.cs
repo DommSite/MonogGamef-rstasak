@@ -4,14 +4,13 @@ using Microsoft.Xna.Framework.Input;
 
 namespace MonogGamef_rstasak
 {
-    public class Player
+    public class Player : BaseClass
     {
-        Vector2 position = new Vector2(350, 190);
-        Texture2D texture;
-
+    
         public Player(Texture2D texture)
+            :base(texture, new Vector2(350, 190))
         {
-            this.texture = texture;
+            color = Color.Green;
         }
 
         public void Update()
@@ -34,13 +33,12 @@ namespace MonogGamef_rstasak
             {
                 position.X += speed;
             }
+            if(kState.IsKeyDown(Keys.R))
+            {
+                position.X = 350;
+                position.Y = 190;
+            }
         }
 
-
-        public void Draw(SpriteBatch spriteBatch)
-        {
-            Rectangle playerRectangle = new Rectangle((int)position.X, (int)position.Y, 100, 100);           
-            spriteBatch.Draw(texture, playerRectangle, Color.CornflowerBlue);
-        }
     }
 }
